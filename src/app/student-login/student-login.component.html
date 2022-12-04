@@ -1,0 +1,32 @@
+<app-nav-bar></app-nav-bar>
+<div class="bg-image" style="background-image: url('https://thumbs.dreamstime.com/b/abstract-light-color-background-template-beautiful-elegant-illustration-graphic-art-design-247256926.jpg'); height: 100vh; width: 100vw;">   
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3 mt-4">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                    <h1 class="text-dark">Student Login</h1>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                  <label for="" class="form-label text-dark">Student ID</label>
+                    <input name="studentid" [(ngModel)]="studentid" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="form-label text-dark">Password</label>
+                    <input name="password" [(ngModel)]="password" type="password"  id="" class="form-control">
+                </div>
+               
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <button (click)="studentlog()"  class="btn btn-success" >Login </button>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 ">
+                    <a routerLink="/student">Student   Registration</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+               
